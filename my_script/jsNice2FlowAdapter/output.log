@@ -1,0 +1,66 @@
+## Global variable ##
+slen( number ): 2
+Original: /** @type {number} */
+var slen = sent.length;
+New: var slen : number = sent.length;
+
+
+## Global variable ##
+sent( string ): 0
+Original: /** @type {string} */
+var sent = "This is something";
+New: var sent : string = "This is something";
+
+
+## Function variable ##
+_RET( undefined ): 34
+Original: * @return {undefined}
+
+
+## Global variable ##
+b( number ): 8
+Original: /** @type {number} */
+var b = 0;
+New: var b : number = 0;
+
+
+## Global variable ##
+a( number ): 6
+Original: /** @type {number} */
+var a = -3;
+New: var a : numberr a = -3;
+
+
+## Global variable ##
+siz( number ): 4
+Original: /** @type {number} */
+var siz = 25;
+New: var siz : number = 25;
+
+
+## Function parameter variable ##
+p( number ): 14
+Original: * @param {number} p
+function makeSub(l, p) {
+
+
+## Global variable ##
+subsent( string ): 10
+Original: /** @type {string} */
+var subsent = "x";
+New: var subsent : string = "x";
+
+
+## Local variable ##
+j( number ): 37
+Original: /** @type {number} */
+var j = 1;
+New:   var j : number = 1;
+
+
+## Function parameter variable ##
+l( number ): 13
+Original: * @param {number} l
+function makeSub(l, p) {
+
+
